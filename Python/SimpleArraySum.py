@@ -1,10 +1,6 @@
-n = int(input())
-arr=list()
 x=0
-a=None
-for i in range(n):
-    a = int(input())
-    arr.append(a)
-for b in arr:
-    x = x + b
+n=int(input())
+numbers=list(map(int,input().split()))
+for i in numbers:
+    x+=i
 print(x)
